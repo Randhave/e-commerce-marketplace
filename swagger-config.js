@@ -18,14 +18,14 @@ const swaggerOptions = {
                 "e-commerce-marketplace Application API reference for developers",
         },
         servers: [
-            // {
-            //     url: "https://doosy-bike-service.herokuapp.com",
-            //     description : "for live server"
-            // },
             {
-                url: "http://localhost:4000",
-                description: "for live server"
+                url: "https://e-commerce-marketplace.herokuapp.com",
+                description : "for live server"
             },
+            // {
+            //     url: "http://localhost:4000",
+            //     description: "for live server"
+            // },
              
         ]
     },
